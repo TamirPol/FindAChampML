@@ -14,5 +14,3 @@ def process_data():
 @app.route("/test", methods=["GET"])
 def test():
     return ({"Yes": "Sir"})
-if __name__ == '__main__':
-    app.run(host="192.168.50.187", port="5000",debug=True)
