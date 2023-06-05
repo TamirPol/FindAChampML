@@ -15,4 +15,4 @@ def process_data():
 def test():
     return ({"Yes": "Sir"})
 if __name__ == '__main__':
-    app.run(host="192.168.50.187", port="5000",debug=True)
+    app.run(host="IP ADDRESS", port="5000",debug=True)
